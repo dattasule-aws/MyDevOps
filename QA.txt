@@ -1,4 +1,10 @@
 Entered details to see branch functionality 
 Sending to QA for check
 adding one more line to revidw 
+<<<<<<< HEAD
 File is comming sucessfully
+=======
+File is comming sucessfully
+Need to send to QA branch
+Received re-move to main
+>>>>>>> c1c19183f7c478f2d10d4303acdfb1b972e08f81
