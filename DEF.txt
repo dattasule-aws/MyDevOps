@@ -1,3 +1,4 @@
 Not in stgging area
 this file is created
 this file is created to see conflicts
+Say hello to DevOps World
