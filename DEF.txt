@@ -1,2 +1,3 @@
 Not in stgging area
 this file is created
+this file is created to see conflicts
