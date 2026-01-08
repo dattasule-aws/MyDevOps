@@ -3,3 +3,4 @@ checking for merge
 Well come to conflicts
 Git failed 
 why changes are not replecting to local
+perfectly fine now
