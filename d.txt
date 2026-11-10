@@ -1,0 +1,29 @@
+1. Jenkins Linux commands
+Command	Purpose
+sudo systemctl status jenkins	Check Jenkins service status
+sudo systemctl start jenkins	Start Jenkins
+sudo systemctl stop jenkins	Stop Jenkins
+sudo systemctl restart jenkins	Restart Jenkins
+sudo systemctl enable jenkins	Enable Jenkins at boot
+sudo systemctl is-active jenkins	Check whether Jenkins is running
+sudo journalctl -u jenkins -f	View live Jenkins service logs
+ps -ef \| grep jenkins	Check Jenkins process
+sudo ss -tulnp \| grep 8080	Check whether port 8080 is listening
+
+Default Jenkins URL: http://<server-ip>:8080
+2. Jenkins directories and files
+Path	Description
+/var/lib/jenkins	Common Jenkins home directory on Linux packages
+/var/lib/jenkins/jobs/	Job configurations and associated data
+/var/lib/jenkins/workspace/	Job workspaces
+/var/lib/jenkins/plugins/	Installed plugins
+/var/lib/jenkins/secrets/	Sensitive Jenkins files; restricted access
+/var/log/jenkins/jenkins.log	Jenkins log on some installations
+
+Actual locations depend on the installation and configuration.
+3. Jenkins build and deployment commands
+These are examples of shell commands that can be executed within Jenkins pipelines.
+Command	Purpose
+git clone <repo-url>	Clone repository
+git checkout main	Switch to main branch
+git pull origin main	Pull latest changes
